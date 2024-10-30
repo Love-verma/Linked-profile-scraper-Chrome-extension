@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: #f4f4f4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ height: 90vh;
+}
+
+/* Styling for the textarea */
+
+
+/* Styling for the button */
+#start {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077b5; /* LinkedIn blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#start:hover {
+    background-color: #005582; /* Darker blue on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #links {
+        width: 90%;
+    }
+
+    #start {
+        width: 90%;
+    }
+}
